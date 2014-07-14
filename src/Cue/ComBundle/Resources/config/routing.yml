@@ -1,0 +1,47 @@
+cue_com_homepage:
+    pattern:  /hello/{name}
+    defaults: { _controller: CueComBundle:Default:index }
+
+about_us:
+    pattern: /about_us
+    defaults: { _controller: CueComBundle:Pages:aboutUs }
+
+contact_us:
+    pattern: /contact_us
+    defaults: { _controller: CueComBundle:Pages:contactUs }
+
+home:
+    pattern: /home
+    defaults: { _controller: CueComBundle:Pages:home }
+
+home:
+    pattern: /site/home
+    defaults: { _controller: CueComBundle:Site:home }
+
+home_index:
+    pattern: /index/{name}
+    defaults: { _controller: CueComBundle:staticPages:home }
+
+aboutme:
+    pattern: /aboutme
+    defaults: { _controller: CueComBundle:staticPages:aboutme }
+
+career:
+    pattern: /career
+    defaults: { _controller: CueComBundle:staticPages:career }
+
+client:
+    pattern: /client
+    defaults: { _controller: CueComBundle:staticPages:client }
+
+toc:
+    pattern: /toc
+    defaults: { _controller: CueComBundle:staticPages:toc }
+
+check:
+    pattern: /check/{name}/{age}
+    defaults: { _controller: CueComBundle:Test:check }
+
+click:
+    pattern: /
+    defaults: { _controller: CueComBundle:Test:click }

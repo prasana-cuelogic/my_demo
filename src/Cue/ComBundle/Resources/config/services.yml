@@ -1,0 +1,7 @@
+parameters:
+#    cue_com.example.class: Cue\ComBundle\Example
+
+services:
+#    cue_com.example:
+#        class: %cue_com.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

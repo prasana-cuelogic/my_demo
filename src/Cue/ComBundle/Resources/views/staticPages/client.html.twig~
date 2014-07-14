@@ -1,0 +1,11 @@
+{% include "CueComBundle:Default:header.html.twig" %}
+
+
+{% block title %}CueComBundle:Pages:client{% endblock %}
+
+{% block body %}
+<h1>Welcome to the Pages:Client page</h1>
+
+{% endblock %}
+
+{% include "CueComBundle:Default:footer.html.twig" %}

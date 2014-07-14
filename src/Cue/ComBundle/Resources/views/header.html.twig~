@@ -1,0 +1,10 @@
+<div style="border:1px; heigth:300px; width:90%; background-color: green; font-size:36px; margin-top:0%">CueLogic Technologies
+
+<br>
+
+<a href="{{path('career')}}">About Me</a><tr>
+<a href="{{path('career')}}">Careers</a><tr>
+<a href="{{path('career')}}">Client</a><tr>
+
+</div>
+<hr/>
